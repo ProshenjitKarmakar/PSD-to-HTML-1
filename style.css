@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 20px 0;
+}
+.bg-1{
+	padding: 30px 20%;
+	text-align: center;
+	color: white;
+	background-color: #23232e;
+	overflow: hidden;
+}
+.bg-2{
+	padding: 20px 20%;
+	text-align: center;
+	color: #888a8b;
+	background: url("img/back.png");
+	overflow: hidden;
+}
+
+/* This is for Heading Section  */
+
+.header img{
+	width: 10%;
+	padding: 20px;
+}
+.header h2{
+    padding-top: 40px;
+}
+.header p{
+	font-size: 11px;
+	margin-bottom:90px ;
+}
+.header a{
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+    /* text-decoration: none; */
+}
+
+/* This is for What I Can Do Section  */
+
+.what-i-can-do .txt{
+	font-size: 19px;
+	padding: 5px 150px;
+}
+.what-i-can-do .col{
+	width: 29.33%;
+	margin: 2%;
+	float: left;
+	text-align: justify;
+}
+.what-i-can-do .col h4{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+    color: #23232e;
+}
+.what-i-can-do h2{
+    padding-top: 30px;
+    color: #23232e;
+}
+
+/* This is for My Work Section  */
+
+.mywork .menu{
+	margin-left: 90px;
+}
+.mywork .menu ul li{
+    list-style: none;
+    float: left;
+    padding: 0px 20px;
+}
+.mywork .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.mywork .menu ul li a:hover,
+.mywork .menu ul li .active{
+	border-bottom: 2px solid #7b77c9;
+}
+.mywork .col,
+.photography .col{
+	width: 29.33%;
+	margin: 2%;
+	float: left;
+	text-align: justify;
+	text-align: center;
+}
+.mywork .col img,
+.photography .col img{
+    padding-top: 30px;
+	width: 100%;
+}
+.mywork .col p{
+    margin: 0;
+    padding: 0;
+    color:#888a8b;
+}
+.mywork .col h4{
+    padding: 2px 0;
+    color: aliceblue;
+}
+button{
+    background-color: #7b77c9;
+    color: white;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+/* This is for Photography section */
+
+.photography h2{
+    color: #23232e;
+}
+.photography p{
+	font-size: 20px;
+	padding: 5px 130px;
+}
+
+/* This is for Suscribe Section */
+
+.fa-infinity {
+    color: white; 
+}
+.subscribe button{
+	border-radius: 5px;
+}
+.subscribe input{
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 13px;
+	margin-right: 4px;
+}
+.subscribe p{
+    padding: 0 170px;
+}
+
+/* This is Footer section  */
+
+.footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 250px;
+}
+.footer ul li{
+	float: left;
+	padding: 0 20px;
+}
+.footer ul li a{
+	font-size: 17px;
+	color: #888a8b;
+}
+.social{
+    margin-top: 20px;
+}
+.footer p {
+    padding: 50px;
+}
+
+/* for Responsive  */
+
+
+@media all and (max-width: 650px){
+	.header img{
+		width: 30%;
+		padding-bottom: 0;
+	}
+	.bg-1,
+	.bg-2{
+		padding: 20px 10%;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.what-i-can-do .txt{
+		padding: 0 5px;
+	}
+	.what-i-can-do .col{
+		float: none;
+		width: 100%;
+	}
+	.mywork .col{
+		float: none;
+		width: 100%;
+	}
+	.photography .col{
+		float: none;
+		width: 100%;
+	}
+    .subscribe p{
+        padding: 0px 40px;
+    }
+    .footer ul li{
+        float: left;
+        margin: 0px;
+    }
+}
+
